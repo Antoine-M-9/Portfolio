@@ -494,7 +494,7 @@
 
     .head-flex {
         display: flex;
-        height: 180vh;
+        height: auto;
         flex-direction: column;
         align-items: center;
         margin-top: 6rem;
@@ -555,19 +555,17 @@
     }
 
     .container{
-        height: 140rem;
+        height: auto;
         border-radius: 0 0 5rem 5rem;
         background: #012E40;
         box-shadow: var(--radiusShadow);
-        margin-bottom: 5.5rem;
         width: 100%;
     }
     .container-b{
-        height: 120rem;
+        height: auto;
         border-radius: 0 0 5rem 5rem;
         background: #012E40;
         box-shadow: var(--radiusShadow);
-        margin-bottom: 5.5rem;
         width: 100%;
     }
     
@@ -576,12 +574,13 @@
         flex-direction: column;
         align-items: center;
         margin: 8rem 4rem;
+        padding-bottom: 10rem;
     }
 
     h2{
         font-family: 'Vast Shadow', 'Balsamiq Sans';
         font-size: 15rem;
-        margin: 0 12rem 10rem 12rem;
+        margin: 10rem 12rem;
         text-align: justify;
         line-height: 15rem;
         align-self: stretch;
@@ -604,21 +603,21 @@
 
     .block{
         height: auto;
-        min-width: 30rem;
+        min-width: 115rem;
+        max-width: 115rem;
         background-color: var(--bgShadow);
         box-shadow: var(--boxShadow);
         margin: 6rem;
         border-radius: 10px;
-        padding: 3rem 3rem;
+        padding: 3rem 0;
     }
 
     .block p{
         display: flex;
         flex-direction: column;
         text-align: center;
-        font-size: 3rem;
+        font-size: 2rem;
         padding: 8rem 4rem;
-        line-height: 1.4;
     }
 
     span{
@@ -702,7 +701,6 @@
         flex-direction: column;
         justify-content: space-around;
         height: 70rem;
-        width: 60%;
     }
 
     .flex-c{
@@ -797,7 +795,7 @@
 
     .head-flex {
         display: flex;
-        height: 90rem;
+        height: auto;
         flex-direction: column;
         align-items: center;
         margin: 5rem 0 3rem 0;
@@ -861,7 +859,7 @@
         text-shadow: var(--titleShadow);
     }
     .container{
-        height: 125rem;
+        height: auto;
         border-radius: 0 0 5rem 5rem;
         background: #012E40;
         box-shadow: var(--radiusShadow);
@@ -869,7 +867,7 @@
         width: 100%;
     }
     .container-b{
-        height: 121rem;
+        height: auto;
         border-radius: 0 0 5rem 5rem;
         background: #012E40;
         box-shadow: var(--radiusShadow);
@@ -882,14 +880,15 @@
         flex-direction: column;
         align-items: center;
         margin: 8rem 4rem;
+        padding-bottom: 10rem;
     }
 
     h2{
         font-family: 'Vast Shadow', 'Balsamiq Sans';
-        font-size: 10.5rem;
-        margin: 0 8rem 0rem 8rem;
+        font-size: 9rem;
+        margin: 0 8rem 5rem 8rem;
         text-align: justify;
-        line-height: 15rem;
+        line-height: 10rem;
         align-self: stretch;
         overflow-wrap: break-word;
         color: var(--title);
@@ -910,10 +909,11 @@
 
     .block{
         height: auto;
-        min-width: 30rem;
+        max-width: 57rem;
+        min-width: 40rem;
         background-color: var(--bgShadow);
         box-shadow: var(--boxShadow);
-        margin: 6rem;
+        margin-top: 3rem;
         border-radius: 10px;
         padding: 3rem 3rem;
     }
@@ -922,9 +922,8 @@
         display: flex;
         flex-direction: column;
         text-align: center;
-        font-size: 2rem;
-        padding: 8rem 4rem;
-        line-height: 1.4;
+        font-size: 1.5rem;
+        padding: 5rem 4rem;
     }
 
     span{
@@ -934,18 +933,18 @@
     }
 
     .container-p{
-        min-height: 70rem;
+        min-height: auto;
         border-radius: 0 0 5rem 5rem;
         background: #012E40;
         box-shadow: var(--radiusShadow);
-        margin-bottom: 5.5rem;
+        padding-bottom: 10rem;
     }
 
     #flex-box-p{
         display: flex;
         flex-direction: column;
         justify-content: space-around;  
-        height: 60rem;
+        height: auto;
     }
 
     .h{
@@ -1000,9 +999,9 @@
     #contact{
         display: flex;
         align-items: center;
-        height: 60rem;
+        height: auto;
         justify-content: center;
-        margin-bottom: 5rem;
+        padding: 10rem 0;
     }
 
     form{
