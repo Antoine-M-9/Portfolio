@@ -62,9 +62,10 @@
 
     .head-flex p{
         max-width: 36rem;
-        font-size: 4.7rem;
+        font-size: 4rem;
         letter-spacing: -0.17em;
         text-align: justify;
+        margin: 1rem;
         overflow-wrap: break-word;
         color: #C9505000;
         background-color: #000000A4;
@@ -115,25 +116,26 @@
     }
 
     .container{
-        height: 60rem;
+        height: auto;
         border-radius: 0 0 5rem 5rem;
         background: #012E40;
         box-shadow: var(--radiusShadow);
         margin-bottom: 5.5rem;
+        padding-bottom: 4rem;
     }
 
     .flex-box{
         display: flex;
-        height: 58rem;
+        height: auto;
         flex-direction: column;
         align-items: center;
-        justify-content: space-around;
-        margin: 4rem;
+        gap: 3rem;
+        margin: 2rem;
     }
 
     h2{
         font-family: 'Vast Shadow', 'Balsamiq Sans';
-        font-size: 6rem;
+        font-size: 3rem;
         text-align: justify;
         line-height: 5rem;
         align-self: stretch;
@@ -156,7 +158,6 @@
 
     .block{
         height: auto;
-        min-width: 30rem;
         background-color: var(--bgShadow);
         box-shadow: var(--boxShadow);
         border-radius: 10px;
@@ -179,18 +180,27 @@
 
     /* Projets */
     .container-p{
-        min-height: 55rem;
+        height: auto;
         border-radius: 0 0 5rem 5rem;
         background: #012E40;
         box-shadow: var(--radiusShadow);
         margin-bottom: 5.5rem;
+        padding-bottom: 5rem;
+    }
+    .container-b{
+        height: auto;
+        border-radius: 0 0 5rem 5rem;
+        background: #012E40;
+        box-shadow: var(--radiusShadow);
+        margin-bottom: 5.5rem;
+        padding-bottom: 5rem;
     }
 
     #flex-box-p{
         display: flex;
         flex-direction: column;
-        justify-content: space-around;  
-        height: 48rem;
+        gap: 2rem; 
+        height: auto;
     }
 
     .h{
@@ -253,14 +263,15 @@
     form{
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
-        height: 40rem;
+        gap: 2rem;
+        width: 70%;
+        height: auto;
     }
 
     .flex-c{
         display: flex;
         justify-content: space-between;
-        width: 24rem;
+        width: 100%;
     }
 
     .nomPrenom, .email, .message{
@@ -276,33 +287,33 @@
     }
 
     ::placeholder{
-        font-size: .8rem;
+        font-size: 1rem;
+        padding: 1.5rem;
         color: #f263639d;
         font-style: italic;
     }
     
     .nomPrenom input{
-        width: 11rem;
+        width: 12rem;
+        height: 3rem;
         border: none;
         border-radius: 2rem;
         color: var(--title);
         background: var(--bg);
         box-shadow: var(--innerShadow);
-        outline-color: var(--title);    
-        padding: 0.8rem 2rem;
+        outline-color: var(--title);
         font-size: 1rem;
     }
 
     .email input{
         height: 2.8rem;
-        width: 20rem;
+        width: 100%;
         border: none;
         border-radius: 2rem;
         color: var(--title);
         background: var(--bg);
         box-shadow: var(--innerShadow);
         outline-color: var(--title);   
-        padding: 1rem 2rem;
         font-size: 1rem;
     }
 
@@ -314,8 +325,7 @@
         color: var(--title);
         background: var(--bg);
         box-shadow: var(--innerShadow);
-        outline-color: var(--title);   
-        padding: 1rem 2rem;
+        outline-color: var(--title);  
         font-size: 1rem;
     }
 
@@ -374,8 +384,15 @@
         color: transparent;
     }
 
+
     .fas{
         font-size: 2rem;
+        color: var(--para);
+        text-shadow: var(--titleShadow);
+    }
+
+    .fa-github {
+        font-size: 2.5rem;
         color: var(--para);
         text-shadow: var(--titleShadow);
     }
@@ -396,7 +413,7 @@
     }
 
     .fab{
-        font-size: 2.5rem;
+        font-size: 2rem;
         color: var(--para);
         text-shadow: var(--linkedinShadow);
     }
@@ -481,7 +498,7 @@
         z-index: 9;
     }
 
-    .fab{
+    .fa-github{
         font-size: 4rem;
         color: var(--para);
         text-shadow: var(--linkedinShadow);
@@ -579,8 +596,7 @@
 
     h2{
         font-family: 'Vast Shadow', 'Balsamiq Sans';
-        font-size: 15rem;
-        margin: 10rem 12rem;
+        font-size: 9rem;
         text-align: justify;
         line-height: 15rem;
         align-self: stretch;
@@ -618,6 +634,7 @@
         text-align: center;
         font-size: 2rem;
         padding: 8rem 4rem;
+        line-height: 3.5rem;
     }
 
     span{
@@ -868,25 +885,25 @@
     }
     .container-b{
         height: auto;
+        width: 100%;
         border-radius: 0 0 5rem 5rem;
         background: #012E40;
         box-shadow: var(--radiusShadow);
         margin-bottom: 5.5rem;
-        width: 100%;
     }
     
     .flex-box{
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 10rem;
         margin: 8rem 4rem;
         padding-bottom: 10rem;
     }
 
     h2{
         font-family: 'Vast Shadow', 'Balsamiq Sans';
-        font-size: 9rem;
-        margin: 0 8rem 5rem 8rem;
+        font-size: 5.8rem;
         text-align: justify;
         line-height: 10rem;
         align-self: stretch;
@@ -910,7 +927,7 @@
     .block{
         height: auto;
         max-width: 57rem;
-        min-width: 40rem;
+        min-width: 67rem;
         background-color: var(--bgShadow);
         box-shadow: var(--boxShadow);
         margin-top: 3rem;
@@ -923,6 +940,7 @@
         flex-direction: column;
         text-align: center;
         font-size: 1.5rem;
+        line-height: 2.5rem;
         padding: 5rem 4rem;
     }
 
@@ -944,6 +962,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-around;  
+        gap: 10rem;
         height: auto;
     }
 
@@ -1006,20 +1025,22 @@
 
     form{
         display: flex;
+        width: 70%;
         flex-direction: column;
         justify-content: space-around;
-        height: 50rem;
+        gap: 5rem;
+        height: auto
     }
 
     .flex-c{
         display: flex;
         justify-content: space-between;
-        width: 50rem;
     }
 
     .nomPrenom, .email, .message{
         display: flex;
         color: #FFF;
+        gap: 2rem;
         flex-direction: column;
     }
     
@@ -1030,12 +1051,13 @@
     }
 
     ::placeholder{
-        font-size: 1rem;
+        font-size: 1.5rem;
         color: #f263639d;
         font-style: italic;
     }
     
     .nomPrenom input{
+        height: 5rem;
         width: 20rem;
         border: none;
         border-radius: 2rem;
@@ -1048,8 +1070,7 @@
     }
 
     .email input{
-        height: 4rem;
-        width: 30rem;
+        height: 5rem;
         border: none;
         border-radius: 2rem;
         color: var(--title);
@@ -1077,8 +1098,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 13rem;
-        font-size: 1.4rem;
+        width: 20rem;
+        font-size: 2rem;
         color: var(--title);
         border: .2rem solid var(--title);
         background: var(--bg);
@@ -1086,7 +1107,7 @@
         border-radius: .5rem;
         margin-top: -1.5rem;
         margin-left: .7rem;
-        padding: .5rem;
+        padding: 1rem;
     }
 
     #mobile-nav{
@@ -1128,7 +1149,7 @@
         color: transparent;
     }
 
-    .fas{
+    .fas, .fa-github{
         font-size: 2rem;
         color: var(--para);
         text-shadow: var(--titleShadow);
